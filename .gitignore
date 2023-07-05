@@ -1,0 +1,19 @@
+.idea/
+.vscode/
+
+tarotproject/__pycache__
+tarotapp/__pycache__
+
+source/content/media/
+source/content/static/
+
+tarotproject/.env
+
+djangoenv/
+
+db.sqlite3
+
+# Ignore migrations except for init file
+!/source/accounts/migrations
+/source/accounts/migrations/*
+!/source/accounts/migrations/__init__.py
