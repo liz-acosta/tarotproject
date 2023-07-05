@@ -2,13 +2,13 @@ from django.conf import settings
 
 from .models import TarotCard
 
-from random import sample
-
 import openai
+from random import sample
+from twilio.rest import Client
+
 
 def get_final_three_cards():
-    # Get final three cards
-    # from database
+    # Get final three cards from database
     
     card_ids_to_get = sample(range(78),3)
     print(card_ids_to_get)
@@ -33,8 +33,7 @@ def get_final_three_cards():
     return final_cards
 
 def get_ai_reading(final_cards):
-    # Make call to OpenAI to get tarot reading
-    # return reading
+    # Make call to OpenAI to get tarot reading and return reading
 
     prompt = f"Give me a summarized tarot reading of the following cards: {final_cards[0]['card_name']}, {final_cards[1]['card_name']}, and {final_cards[2]['card_name']}"
     
@@ -54,3 +53,18 @@ def get_ai_reading(final_cards):
     # tarot_reading = "test reading"
     
     return tarot_reading
+
+def text_reading(to_number, tarot_reading):
+    # Make call to Twilio to send reading to user given phone number
+
+    account_sid = settings.TWILIO_ACCOUNT_SID
+    auth_token = settings.TWILIO_AUTH_TOKEN
+    client = Client(account_sid, auth_token)
+
+    message = client.messages.create(
+                                body=tarot_reading,
+                                from_='+18336330410',
+                                to=to_number,
+                            )
+    
+    return message.sid

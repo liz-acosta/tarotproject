@@ -7,9 +7,7 @@ from django.views import View
 
 from .forms import SendTextForm
 from .models import TarotCard
-from .tarot_reading import get_final_three_cards, get_ai_reading
-
-from twilio.rest import Client
+from .tarot_reading import get_final_three_cards, get_ai_reading, text_reading
 
 
 def index(request):
@@ -49,6 +47,8 @@ class FiveCardsView(View):
     # Five cards page
 
     def get(self, request):
+        # Get final cards from db
+        # render template with context
 
         template = "tarotapp/five_cards.html"
         text = """
@@ -58,10 +58,15 @@ class FiveCardsView(View):
         """
         cut_deck_image = "53c0cce811d9a_thumb900.jpg"
 
+        # Form to get phone number to text reading to
         text_message_form = SendTextForm()  
 
+        # Get final three cards
         final_cards = get_final_three_cards()
-        tarot_reading = get_ai_reading(final_cards) 
+        # Get tarot reading
+        tarot_reading = get_ai_reading(final_cards)
+        # Save tarot reading to session
+        request.session['tarot_reading'] = tarot_reading 
 
         context = {
         "text": text,
@@ -73,39 +78,17 @@ class FiveCardsView(View):
         return render(request, template, context)
 
     def post(self, request):
+        # Get form submission and send text message
         
-        form = SendTextForm(request.POST) 
         # Bind form data from the request
+        form = SendTextForm(request.POST) 
 
+        # Get phone number from form 
         phone_number = request.POST['phone_number']
-        tarot_reading = request.POST['tarot_reading']
+        # Get tarot reading from session
+        tarot_reading = request.session.get('tarot_reading', None)
 
-        # openai.api_key = settings.OPENAI_KEY
-        account_sid = settings.TWILIO_ACCOUNT_SID
-        auth_token = settings.TWILIO_AUTH_TOKEN
-        client = Client(account_sid, auth_token)
-
-        message = client.messages.create(
-                                    body=tarot_reading,
-                                    from_='+18336330410',
-                                    to=phone_number,
-                                )
-
-        print(message.sid)
-
-        print("*****", phone_number)
-        
+        # Text tarot reading to phone number supplied by form
+        text_reading(phone_number, tarot_reading)
+    
         return redirect('index')
-
-
-def final_cards(request):
-    # Final cards page
-
-    template = "tarotapp/final_cards.html" 
-    
-    text = "Here are your cards ..."
-    context = {
-    "text": text,
-    "cut_deck_image": cut_deck_image,}
-    
-    return render(request, template, context)

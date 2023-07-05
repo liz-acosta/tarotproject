@@ -11,40 +11,57 @@
 </head>
 
 <body>
-		<div class="container">
-            <img src="{% static 'tarotapp/images/Cloth-Fabric-Background-5.jpg' %}" style="width:100%;">
-            <div class="centered">
-		  	<h1>{{text}}</h1>
-		  	<table style="width:100%">
-	  			<tr>
-	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="1" onclick="flipCard(this.id)">
-	  				</td>
-	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="2" onclick="flipCard(this.id)"><br>
-	  				</td>
-	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="3" onclick="flipCard(this.id)"><br>
-	  				</td>
-	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="4" onclick="flipCard(this.id)"><br>
-	  				</td>
-	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="5" onclick="flipCard(this.id)"><br>
-	  				</td>
-	  			</tr>
-	  		</table>
-            <div id="tarot-reading">
-                <p>{{ tarot_reading }}</p>
+	<div class="container">
+        <img src="{% static 'tarotapp/images/Cloth-Fabric-Background-5.jpg' %}" style="width:100%;">
+        
+        <div class="centered">
+            
+                <h1>{{text}}</h1>
                 
-                <form method="post" action="">
-                    {% csrf_token %}
-                    {{ text_message_form.as_p }}
-                    <input type="hidden" name="tarot_reading" value=
-                    "{{ tarot_reading }}">
-                    <button type="submit">Submit</button>
-                </form>
-                
-                <form action="{% url 'index' %}">
-                    <input type="submit" value="Change your fate!" />
-                </form>
-            </div>
+                <table style="width:100%">
+                    <tr>
+                        <td align="center"><img class="card" src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="1" onclick="flipCard(this.id)">
+                        </td>
+                        <td align="center"><img class="card" src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="2" onclick="flipCard(this.id)"><br>
+                        </td>
+                        <td align="center"><img class="card" src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="3" onclick="flipCard(this.id)"><br>
+                        </td>
+                        <td align="center"><img class="card" src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="4" onclick="flipCard(this.id)"><br>
+                        </td>
+                        <td align="center"><img class="card"src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="5" onclick="flipCard(this.id)"><br>
+                        </td>
+                    </tr>
+                </table>
+            
+                <div id="tarot-reading">
+                <table style="width:100%">
+                    <tr>
+                        <td>
+                            <p>{{ tarot_reading }}</p>
+                        </td>
+                    </tr>
 
-		</div>
-	</div>
-</body>
+                    <tr>
+                        <td>
+                            <form method="post" action="">
+                            {% csrf_token %}
+                            {{ text_message_form.as_p }}
+                                <!-- <input type="hidden" name="tarot_reading" value="{{ tarot_reading }}"> -->
+                                <button type="submit">Send text</button>
+                            </form>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <form action="{% url 'index' %}">
+                                <input type="submit" value="Change your fate: Redo your reading!" />
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+
+</html>

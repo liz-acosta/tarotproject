@@ -41,22 +41,8 @@ a {
     color: white;
 }                                                                                                                                            
 
-input[type=checkbox] {
-    width: 50px;
-    height: 5   0px;
-}
-
-input[type=submit] {
-    width: 150px;
-    height: 100px;
-}
-
 h1 {
     color: white;
-}
-
-body {
-    background: white url("images/fantasy-background-7.jpg") no-repeat;
 }
 
 @keyframes fadein {
