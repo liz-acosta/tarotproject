@@ -1,8 +1,9 @@
 .idea/
 .vscode/
+.DS_store
 
-tarotproject/__pycache__
-tarotapp/__pycache__
+tarotproject/__pycache__/
+tarotapp/__pycache__/
 
 source/content/media/
 source/content/static/
