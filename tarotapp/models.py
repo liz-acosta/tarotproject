@@ -7,6 +7,3 @@ class TarotCard(models.Model):
     meaning = models.TextField(blank=True)
     arcana = models.BooleanField(default=False)
     image_filename = models.CharField(max_length=200)
-
-    # def __str__(self):
-    #     return self
