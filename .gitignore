@@ -2,17 +2,19 @@
 .vscode/
 .DS_store
 
-tarotproject/__pycache__/
-tarotapp/__pycache__/
+tarotproject/__pycache__/*
+tarotapp/__pycache__/*
 
 source/content/media/
 source/content/static/
 
 tarotproject/.env
 
-djangoenv/
+djangoenv/*
 
 db.sqlite3
+
+django_env/pyvenv.cfg
 
 # Ignore migrations except for init file
 !/source/accounts/migrations
