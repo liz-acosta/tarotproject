@@ -2,6 +2,8 @@
 .vscode/
 .DS_store
 
+*.pyc 
+
 tarotproject/__pycache__/
 tarotapp/__pycache__/
 
@@ -10,7 +12,7 @@ source/content/static/
 
 tarotproject/.env
 
-djangoenv/
+django_env/
 
 db.sqlite3
 
