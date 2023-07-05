@@ -69,6 +69,6 @@ def text_reading(to_number, tarot_reading):
     
     return message.sid
 
-def a_func_that_does_nothing():
-    print("nothing doing")
-    return "nope"
+def test_func()
+    return "It's a test!"
+    
