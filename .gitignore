@@ -17,8 +17,8 @@ django_env/
 db.sqlite3
 
 django_env/pyvenv.cfg
-
+tarotapp/migrations
 # Ignore migrations except for init file
-!/source/accounts/migrations
-/source/accounts/migrations/*
-!/source/accounts/migrations/__init__.py
+!/tarotapp/migrations
+/tarotapp/migrations/*
+!/tarotapp/migrations/__init__.py
