@@ -1,0 +1,860 @@
+[
+    {
+        "pk": 1,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": "Ace",
+            "meaning": "Ace of Wands: Inspiration, power, creation, beginnings, potential",
+            "image_filename": "Wands01.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 2,
+            "meaning": "2 of Wands: Future planning, progress, decisions, discovery",
+            "image_filename": "Wands02.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 3,
+            "meaning": "3 of Wands: Preparation, foresight, enterprise, expansion",
+            "image_filename": "Wands03.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 4,
+            "meaning": "4 of Wands: Celebration, harmony, marriage, home, community",
+            "image_filename": "Wands04.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 5,
+            "meaning": "5 of Wands: Disagreement, competition, strife, tension, conflict",
+            "image_filename": "Wands05.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 6,
+            "meaning": "6 of Wands: Public recognition, victory, progress, self-confidence",
+            "image_filename": "Wands06.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 7,
+            "meaning": "7 of Wands: Challenge, competition, perseverance",
+            "image_filename": "Wands07.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 8,
+            "meaning": "8 of Wands: Speed, action, air travel, movement, swift change",
+            "image_filename": "Wands08.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 9,
+            "meaning": "9 of Wands: Courage, persistence, test of faith, resilience",
+            "image_filename": "Wands09.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": 10,
+            "meaning": "10 of Wands: Burden, responsibility, hard work, stress, achievement",
+            "image_filename": "Wands10.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": "Page",
+            "meaning": "Page of Wands: Enthusiasm, exploration, discovery, free spirit",
+            "image_filename": "Wands11.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": "Knight",
+            "meaning": "Knight of Wands: Energy, passion, lust, action, adventure, impulsiveness",
+            "image_filename": "Wands12.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": "Queen",
+            "meaning": "Queen of Wands: Exuberance, warmth, vibrancy, determination",
+            "image_filename": "Wands13.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wands",
+            "number": "King",
+            "meaning": "King of Wands: Natural-born leader, vision, entrepreneur, honour",
+            "image_filename": "Wands14.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": "Ace",
+            "meaning": "Ace of Swords: Raw power, victory, break-throughs, mental clarity",
+            "image_filename": "Swords01.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 2,
+            "meaning": "2 of Swords: Indecision, choices, truce, stalemate, blocked emotions",
+            "image_filename": "Swords02.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 3,
+            "meaning": "3 of Swords: Painful separation, sorrow heartbreak, grief, rejection",
+            "image_filename": "Swords03.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 4,
+            "meaning": "4 of Swords: Contemplation, recuperation, passivity, relaxation, rest",
+            "image_filename": "Swords04.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 5,
+            "meaning": "5 of Swords: Conflict, tension, loss, defeat, win at all costs, betrayal",
+            "image_filename": "Swords05.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 6,
+            "meaning": "6 of Swords: Regretful but necessary transition, rite of passage",
+            "image_filename": "Swords06.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 7,
+            "meaning": "7 of Swords: Betrayal, deception, getting away with something, stealth",
+            "image_filename": "Swords07.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 8,
+            "meaning": "8 of Swords: Isolation, self-imposed restriction, imprisonment",
+            "image_filename": "Swords08.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 9,
+            "meaning": "9 of Swords: Depression, nightmares, intense anxiety, despair",
+            "image_filename": "Swords09.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": 10,
+            "meaning": "10 of Swords: Back-stabbed, defeat, crisis, betrayal, endings, loss",
+            "image_filename": "Swords10.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": "Page",
+            "meaning": "Page of Swords: Talkative, curious, mentally restless, energetic",
+            "image_filename": "Swords11.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": "Knight",
+            "meaning": "Knight of Swords: Opinionated, hasty, action-oriented, communicative",
+            "image_filename": "Swords12.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": "Queen",
+            "meaning": "Queen of Swords: Quick thinker, organised, perceptive, independent",
+            "image_filename": "Swords13.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Swords",
+            "number": "King",
+            "meaning": "King of Swords: Clear thinking, intellectual power, authority, truth",
+            "image_filename": "Swords14.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": "Ace",
+            "meaning": "Ace of Cups: Love, compassion, creativity, overwhelming emotion",
+            "image_filename": "Cups01.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 2,
+            "meaning": "2 of Cups: Unified love, partnership, attraction, relationships",
+            "image_filename": "Cups02.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 3,
+            "meaning": "3 of Cups: Celebration, friendship, creativity, community",
+            "image_filename": "Cups03.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 4,
+            "meaning": "4 of Cups: Meditation, contemplation, apathy, re-evaluation",
+            "image_filename": "Cups04.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 5,
+            "meaning": "5 of Cups: Loss, regret, disappointment, despair, bereavement",
+            "image_filename": "Cups05.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 6,
+            "meaning": "6 of Cups: Reunion, nostalgia, childhood memories, innocence",
+            "image_filename": "Cups06.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 7,
+            "meaning": "7 of Cups: Fantasy, illusion, wishful thinking, choices, imagination",
+            "image_filename": "Cups07.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 8,
+            "meaning": "8 of Cups: Escapism, disappointment, abandonment, withdrawal",
+            "image_filename": "Cups08.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 9,
+            "meaning": "9 of Cups: Wishes fulfilled, comfort, happiness, satisfaction",
+            "image_filename": "Cups09.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": 10,
+            "meaning": "10 of Cups: Harmony, marriage, happiness, alignment",
+            "image_filename": "Cups10.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": "Page",
+            "meaning": "Page of Cups: A messenger, creative beginnings, synchronicity",
+            "image_filename": "Cups11.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": "Knight",
+            "meaning": "Knight of Cups: Romance, charm, \u2018Knight in shining armour\u2019, imagination",
+            "image_filename": "Cups12.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": "Queen",
+            "meaning": "Queen of Cups: Emotional security, calm, intuitive, compassionate",
+            "image_filename": "Cups13.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Cups",
+            "number": "King",
+            "meaning": "King of Cups: Emotional balance and control, generosity",
+            "image_filename": "Cups14.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": "Ace",
+            "meaning": "Ace of Pentacles: Manifestation, new financial opportunity, prosperity",
+            "image_filename": "Pents01.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 2,
+            "meaning": "2 of Pentacles: Balance, adaptability, time management, prioritisation",
+            "image_filename": "Pents02.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 3,
+            "meaning": "3 of Pentacles:  Teamwork, initial fulfilment, collaboration, learning",
+            "image_filename": "Pents03.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 4,
+            "meaning": "4 of Pentacles: Control, stability, security, possession, conservatism",
+            "image_filename": "Pents04.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 5,
+            "meaning": "5 of Pentacles: Isolation, insecurity, worry, financial loss, poverty",
+            "image_filename": "Pents05.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 6,
+            "meaning": "6 of Pentacles: Generosity, charity, giving, prosperity, sharing wealth",
+            "image_filename": "Pents06.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 7,
+            "meaning": "7 of Pentacles: Vision, perseverance, profit, reward, investment",
+            "image_filename": "Pents07.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 8,
+            "meaning": "8 of Pentacles: Apprenticeship, education, quality, engagement",
+            "image_filename": "Pents08.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 9,
+            "meaning": "9 of Pentacles: Gratitude, luxury, self-sufficiency, culmination",
+            "image_filename": "Pents09.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": 10,
+            "meaning": "10 of Pentacles: Wealth, inheritance, family, establishment, retirement",
+            "image_filename": "Pents10.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": "Page",
+            "meaning": "Page of Pentacles: Manifestation, financial opportunity, new job",
+            "image_filename": "Pents11.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": "Knight",
+            "meaning": "Knight of Pentacles: Efficiency, routine, conservatism, methodical",
+            "image_filename": "Pents12.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": "Queen",
+            "meaning": "Queen of Pentacles: Practical, homely, motherly, down-to-earth, security",
+            "image_filename": "Pents13.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Pentacles",
+            "number": "King",
+            "meaning": "King of Pentacles: Security, control, power, discipline, abundance",
+            "image_filename": "Pents14.jpg",
+            "arcana": "False"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Fool",
+            "number": 0,
+            "meaning": "The Fool: Beginnings, innocence, spontaneity, a free spirit",
+            "image_filename": "RWS_Tarot_00_Fool.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Magician",
+            "number": 1,
+            "meaning": "The Magician: Power, skill, concentration, action, resourcefulness",
+            "image_filename": "RWS_Tarot_01_Magician.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The High Priestess",
+            "number": 2,
+            "meaning": "The High Priestess: Intuition, Higher powers, mystery, subconscious mind",
+            "image_filename": "RWS_Tarot_02_High_Priestess.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Empress",
+            "number": 3,
+            "meaning": "The Empress: Fertility, femininity, beauty, nature, abundance",
+            "image_filename": "RWS_Tarot_03_Empress.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Emperor",
+            "number": 4,
+            "meaning": "The Emperor: Authority, father-figure, structure, solid foundation",
+            "image_filename": "RWS_Tarot_04_Emperor.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Hierophant",
+            "number": 5,
+            "meaning": "The Hierophant: Religion, group identification, conformity, tradition, beliefs",
+            "image_filename": "RWS_Tarot_05_Hierophant.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Lovers",
+            "number": 6,
+            "meaning": "The Lovers: Love, union, relationships, values alignment, choices",
+            "image_filename": "RWS_Tarot_06_Lovers.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Chariot",
+            "number": 7,
+            "meaning": "The Chariot: Control, will power, victory, assertion, determination",
+            "image_filename": "RWS_Tarot_07_Chariot.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Strength",
+            "number": 8,
+            "meaning": "Strength: Strength, courage, patience, control, compassion",
+            "image_filename": "RWS_Tarot_08_Strength.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Hermit",
+            "number": 9,
+            "meaning": "The Hermit: Soul-searching, introspection, being alone, inner guidance",
+            "image_filename": "RWS_Tarot_09_Hermit.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Wheel of Fortune",
+            "number": 10,
+            "meaning": "The Wheel of Fortune: Good luck, karma, life cycles, destiny, a turning point",
+            "image_filename": "RWS_Tarot_10_Wheel_of_Fortune.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Justice",
+            "number": 11,
+            "meaning": "Justice: Justice, fairness, truth, cause and effect, law",
+            "image_filename": "RWS_Tarot_11_Justice.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Hanged Man",
+            "number": 12,
+            "meaning": "The Hanged Man: Suspension, restriction, letting go, sacrifice",
+            "image_filename": "RWS_Tarot_12_Hanged_Man.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Death",
+            "number": 13,
+            "meaning": "Death: Endings, beginnings, change, transformation, transition",
+            "image_filename": "RWS_Tarot_13_Death.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Temperance",
+            "number": 14,
+            "meaning": "Temperance: Balance, moderation, patience, purpose, meaning",
+            "image_filename": "RWS_Tarot_14_Temperance.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Devil",
+            "number": 15,
+            "meaning": "The Devil: Bondage, addiction, sexuality, materialism",
+            "image_filename": "RWS_Tarot_15_Devil.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Tower",
+            "number": 16,
+            "meaning": "The Tower: Disaster, upheaval, sudden change, revelation",
+            "image_filename": "RWS_Tarot_16_Tower.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Star",
+            "number": 17,
+            "meaning": "The Star: Hope, spirituality, renewal, inspiration, serenity",
+            "image_filename": "RWS_Tarot_17_Star.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Moon",
+            "number": 18,
+            "meaning": "The Moon: Illusion, fear, anxiety, insecurity, subconscious",
+            "image_filename": "RWS_Tarot_18_Moon.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The Sun",
+            "number": 19,
+            "meaning": "The Sun: Fun, warmth, success, positivity, vitality",
+            "image_filename": "RWS_Tarot_19_Sun.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "Judgement",
+            "number": 20,
+            "meaning": "Judgement: Judgement, rebirth, inner calling, absolution",
+            "image_filename": "RWS_Tarot_20_Judgement.jpg",
+            "arcana": "True"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "tarotapp.tarotcard",
+        "fields": {
+            "symbol": "The World",
+            "number": 21,
+            "meaning": "The World: Completion, integration, accomplishment, travel",
+            "image_filename": "RWS_Tarot_21_World.jpg",
+            "arcana": "True"
+        }
+    }
+]

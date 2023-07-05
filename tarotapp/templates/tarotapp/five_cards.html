@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="{% static 'tarotapp/style.css' %}">
+    <script src="{% static 'tarotapp/finalcards.js' %}" defer></script>
+    {{ final_cards|json_script:"finalCards" }}
+    {{ tarot_reading|json_script:"tarotReading" }}
+</head>
+
+<body>
+		<div class="container">
+            <img src="{% static 'tarotapp/images/Cloth-Fabric-Background-5.jpg' %}" style="width:100%;">
+            <div class="centered">
+		  	<h1>{{text}}</h1>
+		  	<table style="width:100%">
+	  			<tr>
+	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="1" onclick="flipCard(this.id)">
+	  				</td>
+	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="2" onclick="flipCard(this.id)"><br>
+	  				</td>
+	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="3" onclick="flipCard(this.id)"><br>
+	  				</td>
+	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="4" onclick="flipCard(this.id)"><br>
+	  				</td>
+	  				<td align="center"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="200" id="5" onclick="flipCard(this.id)"><br>
+	  				</td>
+	  			</tr>
+	  		</table>
+            <div id="tarot-reading">
+                <p>{{ tarot_reading }}</p>
+                
+                <form method="post" action="">
+                    {% csrf_token %}
+                    {{ text_message_form.as_p }}
+                    <input type="hidden" name="tarot_reading" value=
+                    "{{ tarot_reading }}">
+                    <button type="submit">Submit</button>
+                </form>
+                
+                <form action="{% url 'index' %}">
+                    <input type="submit" value="Change your fate!" />
+                </form>
+            </div>
+
+		</div>
+	</div>
+</body>

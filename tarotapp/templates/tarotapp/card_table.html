@@ -1,0 +1,21 @@
+<html>
+<head>
+    {% load static %}
+	<link rel="stylesheet" href="{% static 'tarotapp/style.css' %}">
+</head>
+	<body>
+		<div class="container">
+		  <img src="{% static 'tarotapp/images/Cloth-Fabric-Background-5.jpg' %}" style="width:100%;">
+		  <div class="centered">
+		  	<h1>{{text}}</h1>
+		  	<table style="width:100%">
+	  			<tr>
+	  				<td align="center"><a href="{% url 'five_cards' %}"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="300"></a>
+	  				</td>
+	  				<td align="center"><a href="{% url 'five_cards' %}"><img src="{% static 'tarotapp/images/' %}{{cut_deck_image}}" width="300"></a>
+	  				</td>
+	  			</tr>
+	  		</table>
+		</div>
+	</div>
+</body>
